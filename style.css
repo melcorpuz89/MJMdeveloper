@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{ 
+    font-size: 2em;
+    font-weight: bolder;
+    color: #fff;
+    font-style: oblique;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#main{
+    background: url(../image/pancake.jpg) no-repeat center center/cover;
+}
+#logo{
+    background-color:#fff;
+    height: 1000px;
+    overflow: hidden;
+}
+#logo img{
+    height: 200px;
+}
+.row{
+    overflow:hidden;
+    height: 1000px;
+    z-index: 2;
+}
+.bg{
+    background: rgba(0, 0, 0, 0.9);
+}
+.name{
+    font-size: 2em;
+    color:#39ff14;
+    text-align: center;
+    font-weight: bolder;
+}
+#logo .logos{
+    padding: 20px;
+    margin: 50px 300px;
+    border-radius: 1.2em;
+    float: left;
+}
+#logo img{
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+    border-radius:50%;
+}
+.image{
+    float: left;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#fff;
+    text-align: center;
+    padding: 5px 5px;
+    line-height: 1.7em;
+}
+.p1{
+    font-weight: bold;
+    padding: 10px 5px;
+    margin: 0 170px;
+}
+footer{
+    background:#082032;
+    height: 70x;
+    overflow: auto;
+    text-align: center;
+    color: snow;
+    padding: 5px 5px;
+}
+.social i{ 
+    color: #fff;
+}
+.social i:hover{
+    color:rgba(255, 255, 255 ,0.4);
+}
