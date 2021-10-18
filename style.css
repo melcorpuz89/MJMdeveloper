@@ -12,7 +12,7 @@ h2{
     text-align: center;
 }
 #main{
-    background: url(./image/pancake.jpg) no-repeat center center/cover;
+    background: url(pancake.jpg) no-repeat center center/cover;
 }
 #logo{
     background-color:#fff;
